@@ -1,0 +1,29 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node (if you ever use it)
+node_modules/
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Build output
+_site/

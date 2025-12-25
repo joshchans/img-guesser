@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>🎄 Zoom Reveal</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="snow"></div>
+
+  <main class="wrap">
+    <header class="header">
+      <div class="badge">🎅</div>
+      <div>
+        <h1>Zoom Reveal</h1>
+        <p class="sub">Click reveal to see what it is.</p>
+      </div>
+    </header>
+
+    <section class="card">
+      <div class="stage">
+        <img id="img" alt="Mystery image">
+        <div class="veil">
+          <div class="veilText">🔍 Zoomed in…</div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <div class="row">
+          <button id="clueBtn" class="btn secondary">Clue</button>
+          <button id="revealBtn" class="btn">Reveal</button>
+          <button id="nextBtn" class="btn secondary">Next</button>
+        </div>
+
+        <div class="meta">
+          <div id="answer" class="answer" hidden></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
